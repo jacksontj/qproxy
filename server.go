@@ -17,6 +17,7 @@ type QProxyServer struct {
 	m       qmetrics.QProxyMetrics
 }
 
+
 func NewServer(conf *config.Config) (*QProxyServer, error) {
 	m, err := qmetrics.NewQProxyMetrics()
 	if err != nil {
